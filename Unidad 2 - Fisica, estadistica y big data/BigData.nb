@@ -1,0 +1,336 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10335,        326]
+NotebookOptionsPosition[      9383,        291]
+NotebookOutlinePosition[      9725,        306]
+CellTagsIndexPosition[      9682,        303]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["An\[AAcute]lisis de Big Data", "Title",
+ CellChangeTimes->{{3.6889279763360057`*^9, 3.688927982805716*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Generaci\[OAcute]n de muestra con datos de M\[EAcute]xico", "Subchapter",
+ CellChangeTimes->{{3.6889280135050373`*^9, 3.688928021132946*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"data", "=", " ", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<C:\\\\Users\\\\15-K212LA\\\\Documents\\\\Programacion\\\\scihub_data\
+\\\\scihub_data\\\\dec2015.tsv\>\"", ",", 
+     RowBox[{"CharacterEncoding", "\[Rule]", "\"\<UTF8\>\""}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mexDec", " ", "=", 
+   RowBox[{"Cases", "[", 
+    RowBox[{"data", ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "_", ",", "_", ",", "_", ",", "\"\<Mexico\>\"", ",", "_", ",", "_"}], 
+      "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Clear", "[", "data", "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"data", "=", " ", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<C:\\\\Users\\\\15-K212LA\\\\Documents\\\\Programacion\\\\scihub_data\
+\\\\scihub_data\\\\feb2016.tsv\>\"", ",", 
+     RowBox[{"CharacterEncoding", "\[Rule]", "\"\<UTF8\>\""}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"febDec", " ", "=", " ", 
+   RowBox[{"Cases", "[", 
+    RowBox[{"data", ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "_", ",", "_", ",", "_", ",", "\"\<Mexico\>\"", ",", "_", ",", "_"}], 
+      "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Clear", "[", "data", "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"data", "=", " ", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<C:\\\\Users\\\\15-K212LA\\\\Documents\\\\Programacion\\\\scihub_data\
+\\\\scihub_data\\\\jan2016.tsv\>\"", ",", 
+     RowBox[{"CharacterEncoding", "\[Rule]", "\"\<UTF8\>\""}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"janDec", " ", "=", " ", 
+   RowBox[{"Cases", "[", 
+    RowBox[{"data", ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "_", ",", "_", ",", "_", ",", "\"\<Mexico\>\"", ",", "_", ",", "_"}], 
+      "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Clear", "[", "data", "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"data", "=", " ", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<C:\\\\Users\\\\15-K212LA\\\\Documents\\\\Programacion\\\\scihub_data\
+\\\\scihub_data\\\\nov2015.tsv\>\"", ",", 
+     RowBox[{"CharacterEncoding", "\[Rule]", "\"\<UTF8\>\""}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"novDec", " ", "=", 
+   RowBox[{"Cases", "[", 
+    RowBox[{"data", ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "_", ",", "_", ",", "_", ",", "\"\<Mexico\>\"", ",", "_", ",", "_"}], 
+      "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Clear", "[", "data", "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"data", "=", " ", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<C:\\\\Users\\\\15-K212LA\\\\Documents\\\\Programacion\\\\scihub_data\
+\\\\scihub_data\\\\oct2015.tsv\>\"", ",", 
+     RowBox[{"CharacterEncoding", "\[Rule]", "\"\<UTF8\>\""}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"octDec", " ", "=", " ", 
+   RowBox[{"Cases", "[", 
+    RowBox[{"data", ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "_", ",", "_", ",", "_", ",", "\"\<Mexico\>\"", ",", "_", ",", "_"}], 
+      "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Clear", "[", "data", "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"data", "=", " ", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<C:\\\\Users\\\\15-K212LA\\\\Documents\\\\Programacion\\\\scihub_data\
+\\\\scihub_data\\\\sep2015.tsv\>\"", ",", 
+     RowBox[{"CharacterEncoding", "\[Rule]", "\"\<UTF8\>\""}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"sepDec", " ", "=", " ", 
+   RowBox[{"Cases", "[", 
+    RowBox[{"data", ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "_", ",", "_", ",", "_", ",", "\"\<Mexico\>\"", ",", "_", ",", "_"}], 
+      "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Clear", "[", "data", "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mex", " ", "=", " ", 
+   RowBox[{"Join", "[", 
+    RowBox[{
+    "mexDec", ",", " ", "febDec", ",", " ", "janDec", ",", " ", "novDec", ",",
+      " ", "octDec", ",", " ", "sepDec"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"NotebookDirectory", "[", "]"}], "<>", "\"\<mex.tsv\>\""}], ",", 
+    " ", "mex"}], "]"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.6889280391688905`*^9, 3.688928046744893*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Se importan los datos con la muestra de Mexico", "Subchapter",
+ CellChangeTimes->{{3.6889280534054284`*^9, 3.6889280599527855`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"mex", " ", "=", " ", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<C:\\\\Users\\\\15-K212LA\\\\Documents\\\\Programacion\\\\mex.tsv\>\"\
+", ",", 
+     RowBox[{"CharacterEncoding", "\[Rule]", "\"\<UTF8\>\""}]}], "]"}]}], 
+  ";"}]], "Input"],
+
+Cell["\<\
+Vamos a procesar las entradas vac\[IAcute]as para eliminarlas de la muestra.\
+\>", "Text",
+ CellChangeTimes->{{3.6889280708330483`*^9, 3.6889280814370403`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"procesado", " ", "=", " ", 
+   RowBox[{"DeleteCases", "[", 
+    RowBox[{"mex", ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "_", ",", "_", ",", "_", ",", "_", ",", "\"\<N/A\>\"", ",", "_"}], 
+      "}"}]}], "]"}]}], ";"}]], "Input"],
+
+Cell[TextData[{
+ "Ahora se buscan las entradas que contengan el nombre de la ciudad ",
+ StyleBox["Xalapa",
+  FontSlant->"Italic"],
+ ". Se guardar\[AAcute] un valor de ",
+ StyleBox["True",
+  FontSlant->"Italic"],
+ " o ",
+ StyleBox["False",
+  FontSlant->"Italic"],
+ " dependiendo si hay una coincidencia."
+}], "Text",
+ CellChangeTimes->{{3.688928090279369*^9, 3.6889281383429184`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"tf", " ", "=", " ", 
+   RowBox[{"StringContainsQ", "[", 
+    RowBox[{
+     RowBox[{"procesado", "[", 
+      RowBox[{"[", 
+       RowBox[{"All", ",", "5"}], "]"}], "]"}], ",", "\"\<xalapa\>\"", ",", 
+     RowBox[{"IgnoreCase", "->", "True"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6889281108109245`*^9, 3.688928125314091*^9}}],
+
+Cell[TextData[{
+ "Luego se buscan los \[IAcute]ndices que contengan un ",
+ StyleBox["True",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.6889281490336475`*^9, 3.6889281607797575`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"indices", " ", "=", " ", 
+   RowBox[{"Position", "[", 
+    RowBox[{"tf", ",", "True"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6889281651538057`*^9, 3.6889281721044683`*^9}}],
+
+Cell["\<\
+Con esto se pueden seleccionar las entradas que contienen el nombre deseado \
+de la ciudad.\
+\>", "Text",
+ CellChangeTimes->{{3.688928189710967*^9, 3.6889282048539658`*^9}}],
+
+Cell[BoxData[
+ RowBox[{" ", 
+  RowBox[{
+   RowBox[{"datosciudad", " ", "=", " ", 
+    RowBox[{"procesado", "[", 
+     RowBox[{"[", 
+      RowBox[{"Flatten", "[", "indices", "]"}], "]"}], "]"}]}], 
+   ";"}]}]], "Input",
+ CellChangeTimes->{{3.6889282107173457`*^9, 3.688928221621351*^9}}],
+
+Cell["Nos interesan los DOI, estos se encuentran en la columna 2.", "Text",
+ CellChangeTimes->{{3.6889282313392496`*^9, 3.6889282516863394`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"dois", " ", "=", " ", 
+   RowBox[{"datosciudad", "[", 
+    RowBox[{"[", 
+     RowBox[{"All", ",", "2"}], "]"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6889283155641003`*^9, 3.688928318302596*^9}}],
+
+Cell["\<\
+Una vez que tenemos los DOI conectamos con un servicio externo que se \
+encargar\[AAcute] de buscar el t\[IAcute]tulo del Paper y muestra resultados.\
+\>", "Text",
+ CellChangeTimes->{{3.6889283249750757`*^9, 3.6889283728140097`*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"crossref", "=", 
+   RowBox[{"ServiceConnect", "[", "\"\<CrossRef\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"titulos", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"crossref", "[", 
+        RowBox[{"\"\<WorkInformation\>\"", ",", 
+         RowBox[{"\"\<DOI\>\"", "\[Rule]", "#"}]}], "]"}], "[", 
+       "\"\<Title\>\"", "]"}], "&"}], ",", "dois"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"DeleteDuplicates", "[", "titulos", "]"}]}], "Input",
+ CellChangeTimes->{{3.688928357690993*^9, 3.6889283668221035`*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1520, 781},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.0 para Microsoft Windows (64-bit) (July 28, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 113, 1, 101, "Title"],
+Cell[CellGroupData[{
+Cell[718, 27, 147, 1, 67, "Subchapter"],
+Cell[868, 30, 4659, 134, 864, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5564, 169, 138, 1, 67, "Subchapter"],
+Cell[5705, 172, 278, 8, 47, "Input"],
+Cell[5986, 182, 170, 3, 30, "Text"],
+Cell[6159, 187, 268, 8, 47, "Input"],
+Cell[6430, 197, 383, 12, 30, "Text"],
+Cell[6816, 211, 372, 9, 47, "Input"],
+Cell[7191, 222, 202, 6, 30, "Text"],
+Cell[7396, 230, 218, 5, 47, "Input"],
+Cell[7617, 237, 183, 4, 30, "Text"],
+Cell[7803, 243, 286, 8, 47, "Input"],
+Cell[8092, 253, 145, 1, 30, "Text"],
+Cell[8240, 256, 240, 6, 47, "Input"],
+Cell[8483, 264, 243, 4, 30, "Text"],
+Cell[8729, 270, 626, 17, 121, "Input"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
