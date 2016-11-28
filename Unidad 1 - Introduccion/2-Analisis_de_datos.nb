@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    310238,       5826]
-NotebookOptionsPosition[    306646,       5710]
-NotebookOutlinePosition[    306988,       5725]
-CellTagsIndexPosition[    306945,       5722]
+NotebookDataLength[    310808,       5843]
+NotebookOptionsPosition[    307096,       5723]
+NotebookOutlinePosition[    307438,       5738]
+CellTagsIndexPosition[    307395,       5735]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3894,11 +3894,25 @@ CF/HI3wDx/gmHuNznOALPMGXOMW38BTfxhm+g2f4Ls6/7f8GveZmqw==
 
 Cell[CellGroupData[{
 
-Cell["Ejercicio", "Subchapter",
- CellChangeTimes->{{3.689012867742343*^9, 3.689012868822974*^9}}],
+Cell["Ejercicio 1", "Subchapter",
+ CellChangeTimes->{{3.6892830798403893`*^9, 3.689283083702923*^9}}],
+
+Cell["\<\
+Verificar la bondad de ajuste de este modelo. Para eso se tendr\[AAcute] que \
+utilizar la funci\[OAcute]n NonLinearModelFit en vez de FindFit.\
+\>", "Text",
+ CellChangeTimes->{{3.6892830879295645`*^9, 3.6892831092306123`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Ejercicio 2", "Subchapter",
+ CellChangeTimes->{{3.689012867742343*^9, 3.689012868822974*^9}, {
+  3.6892830858285246`*^9, 3.6892830860391016`*^9}}],
 
 Cell["En un circuito construido con una resistencia y un capacitor", "Text",
- CellChangeTimes->{{3.689012873926323*^9, 3.6890128975150404`*^9}}],
+ CellChangeTimes->{{3.689012873926323*^9, 3.6890128975150404`*^9}, {
+  3.6892831321562505`*^9, 3.68928315812136*^9}}],
 
 Cell[BoxData[
  GraphicsBox[
@@ -4368,8 +4382,7 @@ dado por\n\nV = \[Epsilon] ",
   FormBox[
    SuperscriptBox["e", 
     RowBox[{"-", 
-     FractionBox["t", "RC"]}]], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+     FractionBox["t", "RC"]}]], TraditionalForm]]],
  ".\n\nSe realiz\[OAcute] un experimento con un capacitor con capacitancia de \
 1000 \[Mu]F y una resistencia de 46000 \[CapitalOmega]. Si los datos medidos \
 son"
@@ -5819,12 +5832,16 @@ Cell[188568, 3726, 294, 6, 30, "Output"],
 Cell[188865, 3734, 8581, 157, 281, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[197483, 3896, 97, 1, 67, "Subchapter"],
-Cell[197583, 3899, 144, 1, 30, "Text"],
-Cell[197730, 3902, 27723, 459, 222, "Input"],
-Cell[225456, 4363, 571, 14, 116, "Text"],
-Cell[226030, 4379, 80446, 1323, 447, "Input"],
-Cell[306479, 5704, 127, 1, 30, "Text"]
+Cell[197483, 3896, 101, 1, 67, "Subchapter"],
+Cell[197587, 3899, 237, 4, 30, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[197861, 3908, 152, 2, 67, "Subchapter"],
+Cell[198016, 3912, 194, 2, 30, "Text"],
+Cell[198213, 3916, 27723, 459, 222, "Input"],
+Cell[225939, 4377, 538, 13, 116, "Text"],
+Cell[226480, 4392, 80446, 1323, 447, "Input"],
+Cell[306929, 5717, 127, 1, 30, "Text"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

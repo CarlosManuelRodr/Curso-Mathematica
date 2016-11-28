@@ -10,18 +10,22 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     10335,        326]
-NotebookOptionsPosition[      9383,        291]
-NotebookOutlinePosition[      9725,        306]
-CellTagsIndexPosition[      9682,        303]
+NotebookDataLength[     10409,        330]
+NotebookOptionsPosition[      9457,        295]
+NotebookOutlinePosition[      9799,        310]
+CellTagsIndexPosition[      9756,        307]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["An\[AAcute]lisis de Big Data", "Title",
- CellChangeTimes->{{3.6889279763360057`*^9, 3.688927982805716*^9}}],
+Cell["\<\
+Unidad 2
+3 - An\[AAcute]lisis de Big Data\
+\>", "Title",
+ CellChangeTimes->{{3.6889279763360057`*^9, 3.688927982805716*^9}, {
+  3.6892837660577717`*^9, 3.6892838019551654`*^9}}],
 
 Cell[CellGroupData[{
 
@@ -306,31 +310,29 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 113, 1, 101, "Title"],
+Cell[580, 22, 187, 5, 166, "Title"],
 Cell[CellGroupData[{
-Cell[718, 27, 147, 1, 67, "Subchapter"],
-Cell[868, 30, 4659, 134, 864, "Input"]
+Cell[792, 31, 147, 1, 67, "Subchapter"],
+Cell[942, 34, 4659, 134, 864, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5564, 169, 138, 1, 67, "Subchapter"],
-Cell[5705, 172, 278, 8, 47, "Input"],
-Cell[5986, 182, 170, 3, 30, "Text"],
-Cell[6159, 187, 268, 8, 47, "Input"],
-Cell[6430, 197, 383, 12, 30, "Text"],
-Cell[6816, 211, 372, 9, 47, "Input"],
-Cell[7191, 222, 202, 6, 30, "Text"],
-Cell[7396, 230, 218, 5, 47, "Input"],
-Cell[7617, 237, 183, 4, 30, "Text"],
-Cell[7803, 243, 286, 8, 47, "Input"],
-Cell[8092, 253, 145, 1, 30, "Text"],
-Cell[8240, 256, 240, 6, 47, "Input"],
-Cell[8483, 264, 243, 4, 30, "Text"],
-Cell[8729, 270, 626, 17, 121, "Input"]
+Cell[5638, 173, 138, 1, 67, "Subchapter"],
+Cell[5779, 176, 278, 8, 47, "Input"],
+Cell[6060, 186, 170, 3, 30, "Text"],
+Cell[6233, 191, 268, 8, 47, "Input"],
+Cell[6504, 201, 383, 12, 30, "Text"],
+Cell[6890, 215, 372, 9, 47, "Input"],
+Cell[7265, 226, 202, 6, 30, "Text"],
+Cell[7470, 234, 218, 5, 47, "Input"],
+Cell[7691, 241, 183, 4, 30, "Text"],
+Cell[7877, 247, 286, 8, 47, "Input"],
+Cell[8166, 257, 145, 1, 30, "Text"],
+Cell[8314, 260, 240, 6, 47, "Input"],
+Cell[8557, 268, 243, 4, 30, "Text"],
+Cell[8803, 274, 626, 17, 121, "Input"]
 }, Open  ]]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
