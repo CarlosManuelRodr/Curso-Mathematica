@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    399289,       7579]
-NotebookOptionsPosition[    391662,       7320]
-NotebookOutlinePosition[    392006,       7335]
-CellTagsIndexPosition[    391963,       7332]
+NotebookDataLength[    399845,       7596]
+NotebookOptionsPosition[    392100,       7333]
+NotebookOutlinePosition[    392444,       7348]
+CellTagsIndexPosition[    392401,       7345]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -5757,7 +5757,8 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
-                StandardForm]],
+                StandardForm],
+               ImageSizeCache->{163., {1., 9.}}],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarControlActive",
              StripOnInput->False]}, Dynamic[
@@ -7314,6 +7315,18 @@ pYWtfBzu9LeGz6Xk+adR1kXcAZ9LqY9BiEpRux4+l9Ke7YtuX965GD6X0od7
      Scaled[0.05]}},
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{{3.688684593135058*^9, 3.688684616704154*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Ejercicio", "Subchapter",
+ CellChangeTimes->{{3.6898993059882193`*^9, 3.689899309789771*^9}}],
+
+Cell["\<\
+Combinar gr\[AAcute]ficas de Sin utilizando Plot y otra generando una tabla y \
+utilizando ListPlot. Los colores de la gr\[AAcute]fica deben ser diferentes.\
+\>", "Text",
+ CellChangeTimes->{{3.6898993116692853`*^9, 3.6898993601621776`*^9}}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -7573,11 +7586,15 @@ Cell[289911, 5530, 205, 5, 30, "Output"]
 Cell[290131, 5538, 251, 5, 30, "Text"],
 Cell[CellGroupData[{
 Cell[290407, 5547, 374, 10, 47, "Input"],
-Cell[290784, 5559, 9941, 249, 129, "Output"]
+Cell[290784, 5559, 9990, 250, 129, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[300762, 5813, 131, 2, 47, "Input"],
-Cell[300896, 5817, 90726, 1498, 228, "Output"]
+Cell[300811, 5814, 131, 2, 47, "Input"],
+Cell[300945, 5818, 90726, 1498, 228, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[391708, 7321, 99, 1, 67, "Subchapter"],
+Cell[391810, 7324, 250, 4, 30, "Text"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

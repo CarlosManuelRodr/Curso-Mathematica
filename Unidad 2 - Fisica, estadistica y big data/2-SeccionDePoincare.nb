@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     29384,        753]
-NotebookOptionsPosition[     28846,        729]
-NotebookOutlinePosition[     29186,        744]
-CellTagsIndexPosition[     29143,        741]
+NotebookDataLength[     27311,        696]
+NotebookOptionsPosition[     26772,        672]
+NotebookOutlinePosition[     27114,        687]
+CellTagsIndexPosition[     27071,        684]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -30,52 +30,16 @@ Cell["Del oscilador de Duffing", "Chapter",
 
 Cell[BoxData[{
  RowBox[{
-  RowBox[{"sol", "=", 
-   RowBox[{
-    RowBox[{"Module", "[", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"\[Delta]", "=", "0.15"}], ",", 
-        RowBox[{"\[Gamma]", "=", "0.3"}]}], "}"}], ",", "\[IndentingNewLine]", 
-      RowBox[{"NDSolve", "[", "\[IndentingNewLine]", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"x", "''"}], "[", "t", "]"}], "+", 
-            RowBox[{"\[Delta]", " ", 
-             RowBox[{
-              RowBox[{"x", "'"}], "[", "t", "]"}]}], "-", 
-            RowBox[{"x", "[", "t", "]"}], "+", 
-            RowBox[{
-             RowBox[{"x", "[", "t", "]"}], "^", "3"}]}], "\[Equal]", 
-           RowBox[{"\[Gamma]", " ", 
-            RowBox[{"Cos", "[", "t", "]"}]}]}], ",", 
-          RowBox[{
-           RowBox[{"x", "[", "0", "]"}], "\[Equal]", "0"}], ",", 
-          RowBox[{
-           RowBox[{
-            RowBox[{"x", "'"}], "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], 
-        ",", "x", ",", 
-        RowBox[{"{", 
-         RowBox[{"t", ",", "0", ",", "100"}], "}"}], ",", 
-        RowBox[{"MaxSteps", "\[Rule]", "\[Infinity]"}]}], 
-       "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}], "[", 
-    RowBox[{"[", 
-     RowBox[{"1", ",", "1"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"datasmall", "=", 
-   RowBox[{
-    RowBox[{"Block", "[", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"\[Delta]", "=", "0.15"}], ",", 
-        RowBox[{"\[Gamma]", "=", "0.3"}]}], "}"}], ",", "\[IndentingNewLine]", 
-      RowBox[{"Reap", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"sol", "=", 
+    RowBox[{
+     RowBox[{"Module", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\[Delta]", "=", "0.15"}], ",", 
+         RowBox[{"\[Gamma]", "=", "0.3"}]}], "}"}], ",", 
+       "\[IndentingNewLine]", 
        RowBox[{"NDSolve", "[", "\[IndentingNewLine]", 
         RowBox[{
          RowBox[{"{", 
@@ -96,39 +60,15 @@ Cell[BoxData[{
             RowBox[{"x", "[", "0", "]"}], "\[Equal]", "0"}], ",", 
            RowBox[{
             RowBox[{
-             RowBox[{"x", "'"}], "[", "0", "]"}], "\[Equal]", "0"}], ",", 
-           RowBox[{"WhenEvent", "[", 
-            RowBox[{
-             RowBox[{
-              RowBox[{"Mod", "[", 
-               RowBox[{"t", ",", 
-                RowBox[{"2", " ", "\[Pi]"}]}], "]"}], "\[Equal]", "0"}], ",", 
-             RowBox[{"Sow", "[", 
-              RowBox[{"{", 
-               RowBox[{
-                RowBox[{"x", "[", "t", "]"}], ",", 
-                RowBox[{
-                 RowBox[{"x", "'"}], "[", "t", "]"}]}], "}"}], "]"}]}], 
-            "]"}]}], "}"}], ",", 
-         RowBox[{"{", "}"}], ",", 
+             RowBox[{"x", "'"}], "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], 
+         ",", "x", ",", 
          RowBox[{"{", 
           RowBox[{"t", ",", "0", ",", "100"}], "}"}], ",", 
          RowBox[{"MaxSteps", "\[Rule]", "\[Infinity]"}]}], 
-        "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", "]"}]}], 
-     "\[IndentingNewLine]", "]"}], "[", 
-    RowBox[{"[", 
-     RowBox[{
-      RowBox[{"-", "1"}], ",", "1"}], "]"}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"SetOptions", "[", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"Plot", ",", "ListPlot", ",", "ParametricPlot"}], "}"}], ",", 
-    RowBox[{"BaseStyle", "\[Rule]", 
-     RowBox[{"{", 
-      RowBox[{"FontSize", "\[Rule]", "14"}], "}"}]}]}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}], "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "1"}], "]"}], "]"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{"ParametricPlot", "[", 
   RowBox[{
    RowBox[{"Evaluate", "[", 
@@ -166,11 +106,12 @@ Cell[BoxData[{
      RowBox[{"\"\<x(t)\>\"", ",", "\"\<x'(t)\>\""}], "}"}]}], ",", 
    RowBox[{"PlotLabel", "\[Rule]", "\"\<Espacio fase\>\""}]}], 
   "]"}]}], "Input",
- CellChangeTimes->{{3.668812674879713*^9, 3.6688126752078238`*^9}}],
+ CellChangeTimes->{{3.668812674879713*^9, 3.6688126752078238`*^9}, {
+  3.689899494844514*^9, 3.6898995122408714`*^9}}],
 
 Cell[BoxData[{
  RowBox[{
-  RowBox[{"data", "=", 
+  RowBox[{"poincare", "=", 
    RowBox[{
     RowBox[{"Block", "[", 
      RowBox[{
@@ -224,7 +165,7 @@ Cell[BoxData[{
       RowBox[{"-", "1"}], ",", "1"}], "]"}], "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{"ListPlot", "[", 
-  RowBox[{"data", ",", 
+  RowBox[{"poincare", ",", 
    RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", 
    RowBox[{"PlotRange", "\[Rule]", 
     RowBox[{"{", 
@@ -237,13 +178,15 @@ Cell[BoxData[{
    RowBox[{"FrameLabel", "\[Rule]", 
     RowBox[{"{", 
      RowBox[{"\"\<x(t)\>\"", ",", "\"\<x'(t)\>\""}], "}"}]}], ",", 
-   RowBox[{"PlotTheme", "\[Rule]", "\"\<Scientific\>\""}]}], "]"}]}], "Input"]
+   RowBox[{"PlotTheme", "\[Rule]", "\"\<Scientific\>\""}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.689899565122597*^9, 3.689899571443424*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["Del problema de 3 cuerpos restrigido", "Chapter",
- CellChangeTimes->{{3.6688127186261663`*^9, 3.6688127247836456`*^9}}],
+Cell["Del problema de 3 cuerpos restringido", "Chapter",
+ CellChangeTimes->{{3.6688127186261663`*^9, 3.6688127247836456`*^9}, 
+   3.6898994398328676`*^9}],
 
 Cell[BoxData[
  RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
@@ -728,8 +671,8 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{1520, 781},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
-FrontEndVersion->"10.2 for Microsoft Windows (64-bit) (July 7, 2015)",
+WindowMargins->{{9, Automatic}, {Automatic, 9}},
+FrontEndVersion->"11.0 para Microsoft Windows (64-bit) (July 28, 2016)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -747,16 +690,15 @@ Cell[CellGroupData[{
 Cell[580, 22, 122, 1, 101, "Title"],
 Cell[CellGroupData[{
 Cell[727, 27, 109, 1, 72, "Chapter"],
-Cell[839, 30, 5064, 138, 493, "Input"],
-Cell[5906, 170, 2599, 69, 260, "Input"]
+Cell[839, 30, 2887, 79, 254, "Input"],
+Cell[3729, 111, 2673, 70, 252, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8542, 244, 125, 1, 72, "Chapter"],
-Cell[8670, 247, 20148, 478, 1937, "Input"]
+Cell[6439, 186, 154, 2, 72, "Chapter"],
+Cell[6596, 190, 20148, 478, 1863, "Input"]
 }, Open  ]]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    245985,       4410]
-NotebookOptionsPosition[    243009,       4303]
-NotebookOutlinePosition[    243352,       4318]
-CellTagsIndexPosition[    243309,       4315]
+NotebookDataLength[    249626,       4516]
+NotebookOptionsPosition[    246289,       4398]
+NotebookOutlinePosition[    246633,       4413]
+CellTagsIndexPosition[    246590,       4410]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -4297,12 +4297,107 @@ fP8tcb5LOx3Og/CrtONbszgPosIlO+zJsV+Mfe2v+r2xX0URfOHRP7Bfdu2+
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{3.6892184375757265`*^9}]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Ejercicio", "Subchapter",
+ CellChangeTimes->{{3.6898983448222675`*^9, 3.6898983466230373`*^9}}],
+
+Cell["\<\
+Una funci\[OAcute]n que genera n\[UAcute]meros aleatorios de forma iterativa \
+es\
+\>", "Text",
+ CellChangeTimes->{{3.689898352580249*^9, 3.689898389684311*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"LCG", "[", 
+    RowBox[{"x_", ",", "a_", ",", "c_", ",", "m_"}], "]"}], ":=", " ", 
+   RowBox[{"Mod", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"a", " ", "x"}], " ", "+", " ", "c"}], ",", "m"}], "]"}]}], 
+  ";"}]], "Input"],
+
+Cell[TextData[{
+ "Este algoritmo se conoce como Lineal Congruential Generator y la calidad de \
+sus resultados depende de los par\[AAcute]metros ",
+ StyleBox["a",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["c",
+  FontSlant->"Italic"],
+ " y ",
+ StyleBox["m",
+  FontSlant->"Italic"],
+ ". En el compilador de GNU (que es el que utilizan la mayor\[IAcute]a de los \
+proyectos de software libre) la funci\[OAcute]n que genera n\[UAcute]meros \
+aleatorios utiliza los par\[AAcute]metros a = 1103515245, c = 12345, y m = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["2", "31"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ".\n\n1) Generar una secuencia de aleatorios utilizando estos \
+par\[AAcute]metros.\n2) En 1960 IBM cre\[OAcute] una computadora cuyo \
+generador de n\[UAcute]meros aleatorios utilizaba los par\[AAcute]metros a = \
+65539, c = 0, y m = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["2", "31"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " (Algoritmo RANDU). Estos par\[AAcute]metros dieron lugar a un generador de \
+aleatorios de muy mala calidad que caus\[OAcute] que numerosos \
+art\[IAcute]culos cient\[IAcute]ficos que depend\[IAcute]an de \
+n\[UAcute]meros aleatorios fueran publicados con errores. El ejercicio es \
+generar una lista de n\[UAcute]meros aleatorios usando RANDU, luego la lista \
+se particionar\[AAcute] de tres en tres usando la funci\[OAcute]n partition, \
+por ejemplo"
+}], "Text",
+ CellChangeTimes->{{3.6898983992210426`*^9, 3.6898986193006396`*^9}, {
+  3.689898659477659*^9, 3.6898988257729177`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Partition", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "e",
+      ",", "h", ",", "i", ",", "j", ",", "k", ",", "l", ",", "m", ",", "n", 
+     ",", "o"}], "}"}], ",", "3"}], "]"}]], "Input",
+ CellChangeTimes->{{3.689898828444783*^9, 3.6898988483256693`*^9}, {
+  3.689899164881843*^9, 3.6898991652667475`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"d", ",", "e", ",", "f"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"g", ",", "e", ",", "h"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", "j", ",", "k"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"l", ",", "m", ",", "n"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.689898848672468*^9, 3.6898991667987213`*^9}]
+}, Open  ]],
+
+Cell["\<\
+Por \[UAcute]ltimo se deber\[AAcute] graficar los resultados en una gr\
+\[AAcute]fica tridimensional ListPointPlot3D.\
+\>", "Text",
+ CellChangeTimes->{{3.689898854604845*^9, 3.6898989031817493`*^9}}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1520, 771},
-WindowMargins->{{-6, Automatic}, {Automatic, 0}},
+WindowSize->{1536, 781},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
 FrontEndVersion->"11.0 para Microsoft Windows (64-bit) (July 28, 2016)",
 StyleDefinitions->"Default.nb"
 ]
@@ -4409,6 +4504,17 @@ Cell[CellGroupData[{
 Cell[156196, 2844, 1395, 36, 177, "Input"],
 Cell[157594, 2882, 85363, 1415, 251, "Output"]
 }, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[243006, 4303, 101, 1, 67, "Subchapter"],
+Cell[243110, 4306, 171, 4, 30, "Text"],
+Cell[243284, 4312, 275, 9, 47, "Input"],
+Cell[243562, 4323, 1561, 35, 148, "Text"],
+Cell[CellGroupData[{
+Cell[245148, 4362, 410, 9, 47, "Input"],
+Cell[245561, 4373, 464, 13, 30, "Output"]
+}, Open  ]],
+Cell[246040, 4389, 209, 4, 30, "Text"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
