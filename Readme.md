@@ -7,7 +7,7 @@ Llevar el equipo de cómputo necesario. El sistema operativo puede ser Linux, Wi
 Es recomendable descargar los archivos disponibles en este repositorio, ya que contiene ejemplos y archivos necesarios para el curso.
 
 ## Lugar y fecha
-El curso comenzará el 1 de diciembre a las 11:00 Am en la facultad de física. El lugar todavía no está fijo ya que dependerá de la disponibilidad de un salón libre.
+El curso comenzará el 1 de diciembre a las 4:00 Pm en la facultad de física. El lugar todavía no está fijo ya que dependerá de la disponibilidad de un salón libre.
 
 ## Contenido
 ### Básico
