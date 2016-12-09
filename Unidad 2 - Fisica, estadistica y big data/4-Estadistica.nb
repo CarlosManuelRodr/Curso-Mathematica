@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    262299,       5683]
-NotebookOptionsPosition[    257029,       5505]
-NotebookOutlinePosition[    257401,       5521]
-CellTagsIndexPosition[    257358,       5518]
+NotebookDataLength[    260642,       5634]
+NotebookOptionsPosition[    255413,       5457]
+NotebookOutlinePosition[    255787,       5473]
+CellTagsIndexPosition[    255744,       5470]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -108,14 +108,14 @@ Cell[BoxData[
 Cell[BoxData[
  GraphicsBox[{
    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.004766666666666667], 
-    AbsoluteThickness[1.6], {
-     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.004766666666666667],
-       AbsoluteThickness[1.6], Opacity[0.2], 
-      LineBox[{{{100., 7.888609052210105*^-31}, {100., 
-       7.888609052210105*^-31}}},
-       VertexColors->None]}, 
-     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.004766666666666667],
-       AbsoluteThickness[1.6], Opacity[0.2], LineBox[CompressedData["
+    AbsoluteThickness[1.6], 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.004766666666666667], 
+     AbsoluteThickness[1.6], Opacity[0.2], 
+     LineBox[{{{100., 7.888609052210105*^-31}, {100., 
+      7.888609052210105*^-31}}},
+      VertexColors->None]}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.004766666666666667], 
+     AbsoluteThickness[1.6], Opacity[0.2], LineBox[CompressedData["
 1:eJxdl39sU1UUx290c0aBDkTDMsyKIiOKm8I2YW3fPTA22NZ1/d0u8QcRf4Xg
 ptskyFy8JkSdCqigEIibIDFTOpahMRkEvYIBooyMETUC/gNMDfEX/sAxo3VT
 Tuz3NHmv+eTTb0773n33nM64vyn84JVKqeVjxxWXj/9eP+uyf9/zypkvpMdf
@@ -139,8 +139,8 @@ gFh/AZEPiPUrvKoX679e5OvF8yO8CornL4iegvj8kvAmiM+/Ed4Gcf+wwquQ
 hVcxMX/ERP0YNWXOLyS8idGBzPnHCG9jOD9Z4VVczF9xUT9OU3dkzG8kvInj
 /GeEt3GcH63wKkGn0usy5s+EqJ+g0cz5lYQ3CZx/jfA2gfOzFV4lxfydFPWT
 9OMYFfD8TsKbJM7/RnibJPj/YP/3/wD+s5wE
-       "],
-       VertexColors->None]}}}, 
+      "],
+      VertexColors->None]}}, 
    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.004766666666666667], 
     AbsoluteThickness[1.6], {}, GeometricTransformationBox[InsetBox[
       StyleBox["\<\"\[FilledCircle]\"\>",
@@ -244,9 +244,6 @@ e1mWXYfzXTSy+S8ZwX4fkvBJHtrKF/8FUwy2SQ==
 }, Open  ]]
 }, Open  ]],
 
-Cell["Distribuci\[OAcute]n de Poisson", "Chapter",
- CellChangeTimes->{{3.659813142234355*^9, 3.6598131460502653`*^9}}],
-
 Cell[CellGroupData[{
 
 Cell["Teorema del l\[IAcute]mite central", "Chapter",
@@ -332,7 +329,7 @@ Cell[BoxData[
        Hold[$CellContext`n$$], 20, "Tama\[NTilde]o de la muestra"}, 10, 200, 
       1}, {{
        Hold[$CellContext`seed$$], 1, "Semilla"}, 1, 100000, 1}}, 
-    Typeset`size$$ = {550., {163., 167.}}, Typeset`update$$ = 0, 
+    Typeset`size$$ = {550., {162., 168.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = True, $CellContext`n$328$$ = 
     0, $CellContext`seed$333$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -406,8 +403,7 @@ de unas pocas causas independientes (Fuente: Wikipedia). ",
          RowBox[{"(", 
           RowBox[{"x", "-", "\[Mu]"}], ")"}], "2"]}], 
        RowBox[{"2", " ", 
-        SuperscriptBox["\[Sigma]", "2"]}]]}]]}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+        SuperscriptBox["\[Sigma]", "2"]}]]}]]}], TraditionalForm]]],
  "."
 }], "Text",
  CellChangeTimes->{{3.659804135929565*^9, 3.659804243356538*^9}}],
@@ -509,13 +505,11 @@ serie de ",
    RowBox[{
     SubscriptBox["x", "1"], ",", " ", 
     SubscriptBox["x", "2"], ",", "...", ",", 
-    SubscriptBox["x", "n"], " "}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    SubscriptBox["x", "n"], " "}], TraditionalForm]]],
  ", sobre una variable aleatoria y se calcula su media ",
  Cell[BoxData[
   FormBox[
-   OverscriptBox["x", "_"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   OverscriptBox["x", "_"], TraditionalForm]]],
  ", se se realiza otra serie de ",
  StyleBox["n",
   FontSlant->"Italic"],
@@ -528,14 +522,12 @@ serie de ",
     SubscriptBox[
      RowBox[{"x", "'"}], "2"], ",", "...", ",", 
     SubscriptBox[
-     RowBox[{"x", "'"}], "n"], " "}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+     RowBox[{"x", "'"}], "n"], " "}], TraditionalForm]]],
  " y se calcula su media ",
  Cell[BoxData[
   FormBox[
    RowBox[{
-    OverscriptBox["x", "_"], "'"}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    OverscriptBox["x", "_"], "'"}], TraditionalForm]]],
  ", si se sigue el procedimiendo sucesivamente se obtendr\[AAcute] una \
 distribuci\[OAcute]n de las medias. A esta distribuci\[OAcute]n se le conoce \
 como distribuci\[OAcute]n de muestreo. Para averiguar c\[OAcute]mo son los \
@@ -543,8 +535,7 @@ valores de expectaci\[OAcute]n de esta distribuci\[OAcute]n se hace\
 \[LineSeparator]\[LineSeparator]E(n ",
  Cell[BoxData[
   FormBox[
-   OverscriptBox["x", "_"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   OverscriptBox["x", "_"], TraditionalForm]]],
  ") = E(",
  Cell[BoxData[
   FormBox[
@@ -554,8 +545,7 @@ valores de expectaci\[OAcute]n de esta distribuci\[OAcute]n se hace\
       RowBox[{
        SubscriptBox["x", "1"], "+", " ", 
        SubscriptBox["x", "2"], "+"}], "..."}], "+", 
-     SubscriptBox["x", "n"]}], " ", ")"}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+     SubscriptBox["x", "n"]}], " ", ")"}], TraditionalForm]]],
  " = ",
  Cell[BoxData[
   FormBox[
@@ -570,13 +560,11 @@ valores de expectaci\[OAcute]n de esta distribuci\[OAcute]n se hace\
      " ", 
      RowBox[{"E", "(", 
       SubscriptBox["x", "n"], ")"}]}], "  ", "=", " ", 
-    RowBox[{"n", " ", "\[Mu]"}]}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    RowBox[{"n", " ", "\[Mu]"}]}], TraditionalForm]]],
  ",\[LineSeparator]V(n ",
  Cell[BoxData[
   FormBox[
-   OverscriptBox["x", "_"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   OverscriptBox["x", "_"], TraditionalForm]]],
  ") = V(",
  Cell[BoxData[
   FormBox[
@@ -586,8 +574,7 @@ valores de expectaci\[OAcute]n de esta distribuci\[OAcute]n se hace\
       RowBox[{
        SubscriptBox["x", "1"], "+", " ", 
        SubscriptBox["x", "2"], "+"}], "..."}], "+", 
-     SubscriptBox["x", "n"]}], " ", ")"}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+     SubscriptBox["x", "n"]}], " ", ")"}], TraditionalForm]]],
  " = ",
  Cell[BoxData[
   FormBox[
@@ -603,13 +590,11 @@ valores de expectaci\[OAcute]n de esta distribuci\[OAcute]n se hace\
      RowBox[{"V", "(", 
       SubscriptBox["x", "n"], ")"}]}], "  ", "=", " ", 
     RowBox[{"n", " ", 
-     SuperscriptBox["\[Sigma]", "2"]}]}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+     SuperscriptBox["\[Sigma]", "2"]}]}], TraditionalForm]]],
  ".\[LineSeparator]\[LineSeparator]Con esto se puede calcular E y V sobre ",
  Cell[BoxData[
   FormBox[
-   OverscriptBox["x", "_"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   OverscriptBox["x", "_"], TraditionalForm]]],
  ".\[LineSeparator]\[LineSeparator]",
  Cell[BoxData[
   FormBox[
@@ -626,8 +611,7 @@ valores de expectaci\[OAcute]n de esta distribuci\[OAcute]n se hace\
        RowBox[{"E", "(", 
         RowBox[{"n", " ", 
          OverscriptBox["x", "_"]}], ")"}], "n"], " ", "=", " ", "\[Mu]"}]}]}],
-    TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    TraditionalForm]]],
  ",\[LineSeparator]",
  Cell[BoxData[
   FormBox[
@@ -643,21 +627,18 @@ valores de expectaci\[OAcute]n de esta distribuci\[OAcute]n se hace\
       RowBox[{"V", "(", 
        RowBox[{"n", " ", 
         OverscriptBox["x", "_"]}], ")"}], 
-      SuperscriptBox["n", "2"]]}]}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+      SuperscriptBox["n", "2"]]}]}], TraditionalForm]]],
  " = ",
  Cell[BoxData[
   FormBox[
    FractionBox[
-    SuperscriptBox["\[Sigma]", "2"], "n"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    SuperscriptBox["\[Sigma]", "2"], "n"], TraditionalForm]]],
  ".\[LineSeparator]\[LineSeparator]La distribuci\[OAcute]n de la muestra es \
 una distribuci\[OAcute]n normal con media \[Mu] y varianza ",
  Cell[BoxData[
   FormBox[
    RowBox[{
-    SuperscriptBox["\[Sigma]", "2"], "/", "n"}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    SuperscriptBox["\[Sigma]", "2"], "/", "n"}], TraditionalForm]]],
  ". Entonces"
 }], "ItemNumbered",
  CellChangeTimes->{{3.659804757549094*^9, 3.659804831460546*^9}, {
@@ -1580,7 +1561,7 @@ Cell[BoxData[
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`k$$], 2}, 1, 50}, {{
        Hold[$CellContext`seed$$], 1, "Semilla"}, 1, 100000, 1}}, 
-    Typeset`size$$ = {396., {121., 126.}}, Typeset`update$$ = 0, 
+    Typeset`size$$ = {396., {120., 127.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
     True, $CellContext`k$34250$$ = 0, $CellContext`seed$34251$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -1638,8 +1619,7 @@ Cell[TextData[{
  ", donde ",
  Cell[BoxData[
   FormBox[
-   OverscriptBox["x", "_"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   OverscriptBox["x", "_"], TraditionalForm]]],
  " se genera a partir de una distribuci\[OAcute]n normal, y \[Mu] y \[Sigma] \
 se generan aleatoriamente."
 }], "Text",
@@ -1733,7 +1713,7 @@ Cell[BoxData[
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`k$$], 50}, 1, 450}, {{
        Hold[$CellContext`seed$$], 1, "Semilla"}, 1, 100000, 1}}, 
-    Typeset`size$$ = {396., {121., 126.}}, Typeset`update$$ = 0, 
+    Typeset`size$$ = {396., {120., 127.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
     True, $CellContext`k$42615$$ = 0, $CellContext`seed$42616$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -1797,8 +1777,7 @@ Cell[TextData[{
 media observada ",
  Cell[BoxData[
   FormBox[
-   OverscriptBox["x", "_"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   OverscriptBox["x", "_"], TraditionalForm]]],
  " y la media verdadera \[Mu] sea menor a cinco veces la desviaci\[OAcute]n \
 est\[AAcute]ndar observada s?\n\nLa distribuci\[OAcute]n t-Student nos da una \
 medida de cu\[AAcute]nto se aleja la media de la medici\[OAcute]n de la media \
@@ -1809,8 +1788,7 @@ real respecto a la varianza de la medici\[OAcute]n ",
     RowBox[{
      OverscriptBox["x", "_"], "-", " ", "\[Mu]"}], 
     RowBox[{"s", "/", 
-     SqrtBox["n"]}]], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+     SqrtBox["n"]}]], TraditionalForm]]],
  ". Lo que se busca entonces es ver cu\[AAcute]l es el porcentaje de valores \
 de la distribuci\[OAcute]n t-Student que est\[AAcute] entre -5 y 5. Esto se \
 puede hacer integrando la funci\[OAcute]n de densidad de la distribuci\
@@ -1818,8 +1796,7 @@ puede hacer integrando la funci\[OAcute]n de densidad de la distribuci\
  Cell[BoxData[
   FormBox[
    SubsuperscriptBox["\[Integral]", 
-    RowBox[{"-", "5"}], "5"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    RowBox[{"-", "5"}], "5"], TraditionalForm]]],
  "f(x) dx = 0.99251.\n\nA continuaci\[OAcute]n se compara el c\[AAcute]lculo \
 anal\[IAcute]tico con una aproximaci\[OAcute]n num",
  "\[EAcute]rica."
@@ -1858,7 +1835,6 @@ Cell[BoxData[{
           RowBox[{"(", 
            RowBox[{
             RowBox[{"Mean", "[", "sample", "]"}], "-", "\[Mu]"}], ")"}], "/", 
-          
           RowBox[{"(", 
            RowBox[{"5", " ", 
             RowBox[{"StandardDeviation", "[", "sample", "]"}]}], ")"}]}]}], 
@@ -1886,7 +1862,6 @@ Cell[BoxData[{
                 RowBox[{"x", ",", 
                  RowBox[{"-", "1"}], ",", "1"}], "}"}]}], "]"}]}], "]"}], " ",
             "<>", " ", "\"\< %\>\""}]}]}], "]"}], ",", "\[IndentingNewLine]", 
-       
        RowBox[{"Plot", "[", 
         RowBox[{
          RowBox[{"Evaluate", "[", 
@@ -1946,7 +1921,7 @@ Cell[BoxData[
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`k$$], 1500}, 1, 4450}, {{
        Hold[$CellContext`seed$$], 1, "Semilla"}, 1, 100000, 1}}, 
-    Typeset`size$$ = {396., {129., 134.}}, Typeset`update$$ = 0, 
+    Typeset`size$$ = {396., {128., 135.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
     True, $CellContext`k$259759$$ = 0, $CellContext`seed$259760$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -2134,14 +2109,13 @@ zh9Rx+WTns0v6OFUZZVvgp7NP1HP5WMyes1H/ucnkjFsna9CMpu/YjKXzwY2
 v2HAh5HdwG0s3wUDm/+iAez+YMTY/vEXNze9HA==
       "]], {}}}, {
     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.009166666666666668], 
-     AbsoluteThickness[1.6], {
-      {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-       0.009166666666666668], AbsoluteThickness[1.6], Opacity[0.2], 
-       LineBox[{{{0., 7.888609052210105*^-31}, {0., 7.888609052210105*^-31}}},
-        VertexColors->None]}, 
-      {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-       0.009166666666666668], AbsoluteThickness[1.6], Opacity[0.2], 
-       LineBox[CompressedData["
+     AbsoluteThickness[1.6], 
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.009166666666666668],
+       AbsoluteThickness[1.6], Opacity[0.2], 
+      LineBox[{{{0., 7.888609052210105*^-31}, {0., 7.888609052210105*^-31}}},
+       VertexColors->None]}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.009166666666666668],
+       AbsoluteThickness[1.6], Opacity[0.2], LineBox[CompressedData["
 1:eJxVzV1IU2Ecx/FDuYzCtiTCoeEqayNsK9tMd855zl9XQSSKRsEuCun9wraa
 S+xFWiCVRUZpJEmWIWI4jboIVCxKsIucrEFFZjepFVL0ii2h1lb+Lv4Hnufw
 4Xt+nKW7vGV7Z0uSZImfWTPn//NFy/33Njrhr7HEcyd/5gMyJO7tlU6Y97m0
@@ -2155,8 +2129,8 @@ PQLmXaG06d2fLefCAuZdpcvz3oVzzo4LmHdBSder+p5viQqYd430Kw5+3OOZ
 r8G8E+3vnBhOaliiwawHiCKK++LhaqsG830BJfszbX06ocF8X0BzpGuT54uL
 NJjvC8l9pbtCV+/WYL4vJLu5bmTKuE+D+d5Fek91g7nMp8F876LmxqGOLFON
 BvP9BjL8STeXOE5rMPpfRu3HbQ==
-        "],
-        VertexColors->None]}}}, 
+       "],
+       VertexColors->None]}}, 
     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.009166666666666668], 
      AbsoluteThickness[1.6], {}, PointBox[CompressedData["
 1:eJxTTMoPSmViYGDQBGIQDQMf/4PAeksI74O9GZiWtIJKOwiAyLBiKJ/DQQxI
@@ -2172,15 +2146,14 @@ dfv5QOWdHCKnrsth7YuEyjs5mKh33vommQaVd3bgz6uYrB5UBJV3dpg95cwK
 FYVaqLyLg8A/aXV/0zZ7AKQ6qME=
       "]], {}}}, {
     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.009166666666666668], 
-     AbsoluteThickness[1.6], {
-      {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-       0.009166666666666668], AbsoluteThickness[1.6], Opacity[0.2], 
-       LineBox[{{{100., 7.888609052210105*^-31}, {100., 
-        7.888609052210105*^-31}}},
-        VertexColors->None]}, 
-      {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-       0.009166666666666668], AbsoluteThickness[1.6], Opacity[0.2], 
-       LineBox[CompressedData["
+     AbsoluteThickness[1.6], 
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.009166666666666668],
+       AbsoluteThickness[1.6], Opacity[0.2], 
+      LineBox[{{{100., 7.888609052210105*^-31}, {100., 
+       7.888609052210105*^-31}}},
+       VertexColors->None]}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.009166666666666668],
+       AbsoluteThickness[1.6], Opacity[0.2], LineBox[CompressedData["
 1:eJxV1F1IU2Ecx/FDuYLCZhLRsJhRMS/KQWjUds5zfiAFkezl7P0ikN4vbKu5
 xDJpgVQWFqWRJFmJROFU6iJQkUrDLnKyBhGp3aRWSC9UYGtQa63+F/8HHjif
 8+d5vnAuzto9IW3/QkmSSrJ7wf/9b9lQ8LvIZC8/o5K/Zv6uvm05Rm1obx27
@@ -2194,8 +2167,8 @@ D0L5o2l7caVC5n0Php882nn85jqFzPsetFZNmaWKnzKZ973Qb/wUezERl8m8
 78WKTuxIGW7JZN73YiBUdn/oZEgm874XXZm2jt29VpnM+z5MZprnX9/TyWTe
 9yGdyXzLJOJWMu/7UCpJMefIZSuZ931YmX1r/u60knnfj+y/KNo1l28l874f
 n7MyDo1YyLzvR0Hus9VYyLzvx5bcg8FCpvkfUVXvJw==
-        "],
-        VertexColors->None]}}}, 
+       "],
+       VertexColors->None]}}, 
     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.009166666666666668], 
      AbsoluteThickness[1.6], {}, PointBox[CompressedData["
 1:eJxTTMoPSmViYGDQBGIQDQF+DgL/pNX9TdvswdwGP4fZU86sUFGohfAZ/B34
@@ -2462,14 +2435,12 @@ mayores a 60.\n\nUna manera m\[AAcute]s simple de calcular el intervalo de \
 confianza es utilizando los cuantiles de ",
  Cell[BoxData[
   FormBox[
-   FractionBox["\[Alpha]", "2"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   FractionBox["\[Alpha]", "2"], TraditionalForm]]],
  " a ",
  Cell[BoxData[
   FormBox[
    RowBox[{"1", "-", 
-    FractionBox["\[Alpha]", "2"]}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    FractionBox["\[Alpha]", "2"]}], TraditionalForm]]],
  "."
 }], "Text",
  CellChangeTimes->{{3.662337728616494*^9, 3.66233776668039*^9}, {
@@ -2545,18 +2516,15 @@ normalmente distribuido. Entonces la resta de ",
   FormBox[
    RowBox[{
     SubscriptBox["p", "1"], "-", 
-    SubscriptBox["p", "2"]}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    SubscriptBox["p", "2"]}], TraditionalForm]]],
  ", donde ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["p", "1"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SubscriptBox["p", "1"], TraditionalForm]]],
  " y ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["p", "2"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SubscriptBox["p", "2"], TraditionalForm]]],
  " provienen de muestras diferentes, estar\[AAcute] tambi\[EAcute]n \
 normalmente distribuida."
 }], "Text",
@@ -3450,10 +3418,10 @@ Vx6nkQXFc0u/lXoO4f/+byKnNDQNU6CX/L/8P48Wltw=
                     RGBColor[0.33333333333333337`, 0., 0.33333333333333337`], 
                     FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
                     Dynamic[{
-                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
-                    "RGBColor[0.5, 0, 0.5]"], Appearance -> None, 
-                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "RGBColor[0.5, 0, 0.5]"], Appearance -> 
+                    None, BaseStyle -> {}, BaselinePosition -> Baseline, 
                     DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
@@ -3571,8 +3539,9 @@ Vx6nkQXFc0u/lXoO4f/+byKnNDQNU6CX/L/8P48Wltw=
                     0.4731986666666667], FrameTicks -> None, PlotRangePadding -> 
                     None, ImageSize -> 
                     Dynamic[{
-                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     "RGBColor[0.368417, 0.506779, 0.709798]"], Appearance -> 
                     None, BaseStyle -> {}, BaselinePosition -> Baseline, 
                     DefaultBaseStyle -> {}, ButtonFunction :> 
@@ -3614,8 +3583,9 @@ Vx6nkQXFc0u/lXoO4f/+byKnNDQNU6CX/L/8P48Wltw=
                     0.587148, 0.40736066666666665`, 0.09470066666666668], 
                     FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
                     Dynamic[{
-                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     "RGBColor[0.880722, 0.611041, 0.142051]"], Appearance -> 
                     None, BaseStyle -> {}, BaselinePosition -> Baseline, 
                     DefaultBaseStyle -> {}, ButtonFunction :> 
@@ -3809,41 +3779,34 @@ Cell[TextData[{
    RowBox[{
     SubscriptBox["x", "1"], ",", " ", 
     SubscriptBox["x", "2"], ",", " ", "...", "  ", ",", 
-    SubscriptBox["x", "n"], " "}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    SubscriptBox["x", "n"], " "}], TraditionalForm]]],
  ", sobre una variable aleatoria con media \[Mu] y varianza ",
  Cell[BoxData[
   FormBox[
-   SuperscriptBox["\[Sigma]", "2"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SuperscriptBox["\[Sigma]", "2"], TraditionalForm]]],
  ", se quiere probar que la hip\[OAcute]tesis de que \[Mu] = ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["\[Mu]", "0"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SubscriptBox["\[Mu]", "0"], TraditionalForm]]],
  ". La forma natural de realizar esto es calcular la media de la muestra ",
  Cell[BoxData[
   FormBox[
-   OverscriptBox["x", "_"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   OverscriptBox["x", "_"], TraditionalForm]]],
  " y ver si es aproximadamente igual a ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["\[Mu]", "0"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SubscriptBox["\[Mu]", "0"], TraditionalForm]]],
  ". Si se hace esto sucesivas veces se obtendr\[AAcute] una distribuci\
 \[OAcute]n normal con media ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["\[Mu]", "0"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SubscriptBox["\[Mu]", "0"], TraditionalForm]]],
  " y varianza ",
  Cell[BoxData[
   FormBox[
    FractionBox[
     SuperscriptBox["\[Sigma]", "2"], 
-    SqrtBox["n"]], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    SqrtBox["n"]], TraditionalForm]]],
  ", de manera que\n\nd = ",
  Cell[BoxData[
   FormBox[
@@ -3852,8 +3815,7 @@ Cell[TextData[{
      OverscriptBox["x", "_"], "-", 
      SubscriptBox["\[Mu]", "0"]}], 
     RowBox[{"\[Sigma]", "/", 
-     SqrtBox["n"]}]], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+     SqrtBox["n"]}]], TraditionalForm]]],
  "\n\nes una variable aleatoria con distribuci\[OAcute]n normal de media cero \
 y varianza uno. A partir de esto se podr\[IAcute]a verificar la \
 hip\[OAcute]tesis nula, pero el problema radica en que por lo general no se \
@@ -3865,8 +3827,7 @@ muestra, de manera que \n\nt = ",
     RowBox[{
      OverscriptBox["x", "_"], "-", "\[Mu]"}], 
     RowBox[{"s", "/", 
-     SqrtBox["n"]}]], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+     SqrtBox["n"]}]], TraditionalForm]]],
  "\n\nes una variable aleatoria con distribuci\[OAcute]n t-Student. A \
 continuaci\[OAcute]n se muestra un ejemplo de las distribuciones generadas a \
 partir de una variable aleatoria que s\[IAcute] pertenece a una distribuci\
@@ -3886,11 +3847,13 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"\[Sigma]", " ", "=", " ", "1"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"n", " ", "=", " ", 
-   RowBox[{"10", "^", "4"}]}], ";", " ", 
+  RowBox[{
+   RowBox[{"n", " ", "=", " ", 
+    RowBox[{"10", "^", "4"}]}], ";"}], " ", 
   RowBox[{"(*", " ", 
    RowBox[{"Tama\[NTilde]o", " ", "de", " ", "la", " ", "muestra"}], " ", 
-   "*)"}], "\[IndentingNewLine]", 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
   RowBox[{"tDistBuena", " ", "=", " ", 
    RowBox[{"{", "}"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
@@ -4982,8 +4945,9 @@ fPgMA2//nq9kuOiGRm5P6tfNM/BWNc1G3UQ39H/3ofD/34f6H9bhNq4=
                     0.4731986666666667], FrameTicks -> None, PlotRangePadding -> 
                     None, ImageSize -> 
                     Dynamic[{
-                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     "RGBColor[0.368417, 0.506779, 0.709798]"], Appearance -> 
                     None, BaseStyle -> {}, BaselinePosition -> Baseline, 
                     DefaultBaseStyle -> {}, ButtonFunction :> 
@@ -5025,8 +4989,9 @@ fPgMA2//nq9kuOiGRm5P6tfNM/BWNc1G3UQ39H/3ofD/34f6H9bhNq4=
                     0.587148, 0.40736066666666665`, 0.09470066666666668], 
                     FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
                     Dynamic[{
-                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     "RGBColor[0.880722, 0.611041, 0.142051]"], Appearance -> 
                     None, BaseStyle -> {}, BaselinePosition -> Baseline, 
                     DefaultBaseStyle -> {}, ButtonFunction :> 
@@ -5139,10 +5104,10 @@ fPgMA2//nq9kuOiGRm5P6tfNM/BWNc1G3UQ39H/3ofD/34f6H9bhNq4=
                     RGBColor[0.33333333333333337`, 0., 0.33333333333333337`], 
                     FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
                     Dynamic[{
-                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
-                    "RGBColor[0.5, 0, 0.5]"], Appearance -> None, 
-                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "RGBColor[0.5, 0, 0.5]"], Appearance -> 
+                    None, BaseStyle -> {}, BaselinePosition -> Baseline, 
                     DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
@@ -5209,16 +5174,14 @@ m mediciones sobre una variable aleatoria X y n mediciones sobre Y, entonces\n\
      SqrtBox[
       RowBox[{
        FractionBox["1", "m"], "+", 
-       FractionBox["1", "n"]}]]}]], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+       FractionBox["1", "n"]}]]}]], TraditionalForm]]],
  "\nsigue una distribuci\[OAcute]n de student con m+n-2 grados de libertad si \
 ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     SubscriptBox["\[Mu]", "1"], " ", "=", " ", 
-    SubscriptBox["\[Mu]", "2"]}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    SubscriptBox["\[Mu]", "2"]}], TraditionalForm]]],
  ". Si no se puede asumir que las varianzas de ambas variables aleatorias son \
 iguales, pero en n\[UAcute]mero de muestras es grande entonces se puede \
 utilizar\n\nt\[CloseCurlyQuote] =  ",
@@ -5238,8 +5201,7 @@ utilizar\n\nt\[CloseCurlyQuote] =  ",
        FractionBox[
         SubsuperscriptBox["S", "2", "2"], 
         RowBox[{"n", "(", 
-         RowBox[{"n", "-", "1"}], ")"}]]}]]}]], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+         RowBox[{"n", "-", "1"}], ")"}]]}]]}]], TraditionalForm]]],
  ", donde ",
  Cell[BoxData[
   FormBox[
@@ -5252,8 +5214,7 @@ utilizar\n\nt\[CloseCurlyQuote] =  ",
       RowBox[{"(", 
        RowBox[{
         SubscriptBox["x", "i"], "-", 
-        OverscriptBox["x", "_"]}], ")"}], "2"]}]}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+        OverscriptBox["x", "_"]}], ")"}], "2"]}]}], TraditionalForm]]],
  ", y ",
  Cell[BoxData[
   FormBox[
@@ -5394,8 +5355,7 @@ Cell[TextData[{
  "Prueba ",
  Cell[BoxData[
   FormBox[
-   SuperscriptBox["\[Chi]", "2"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SuperscriptBox["\[Chi]", "2"], TraditionalForm]]],
  " de bondad de ajuste"
 }], "Subchapter",
  CellChangeTimes->{{3.663011513434471*^9, 3.663011526434862*^9}}],
@@ -5405,8 +5365,7 @@ Cell[TextData[{
 distribuci\[OAcute]n espec\[IAcute]fica se utiliza la prueba ",
  Cell[BoxData[
   FormBox[
-   SuperscriptBox["\[Chi]", "2"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SuperscriptBox["\[Chi]", "2"], TraditionalForm]]],
  ". En esta prueba el criterio est\[AAcute] dado por\n\n",
  Cell[BoxData[
   FormBox[
@@ -5421,36 +5380,30 @@ distribuci\[OAcute]n espec\[IAcute]fica se utiliza la prueba ",
         RowBox[{
          SubscriptBox["n", "i"], "-", 
          SubscriptBox["E", "i"]}], ")"}], "2"], 
-      SubscriptBox["E", "i"]]}]}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+      SubscriptBox["E", "i"]]}]}], TraditionalForm]]],
  ", donde ",
  Cell[BoxData[
   FormBox[
-   SuperscriptBox["\[Chi]", "2"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SuperscriptBox["\[Chi]", "2"], TraditionalForm]]],
  " sigue precisamente la distribuci\[OAcute]n ",
  Cell[BoxData[
   FormBox[
-   SuperscriptBox["\[Chi]", "2"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SuperscriptBox["\[Chi]", "2"], TraditionalForm]]],
  ". ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["n", "i"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SubscriptBox["n", "i"], TraditionalForm]]],
  " es el n\[UAcute]mero de observaciones de cierta clase, ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["E", "i"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SubscriptBox["E", "i"], TraditionalForm]]],
  " el valor esperado de observaciones dado por ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     SubscriptBox["E", "i"], " ", "=", " ", 
     RowBox[{"n", " ", 
-     SubscriptBox["P", "i"]}]}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+     SubscriptBox["P", "i"]}]}], TraditionalForm]]],
  ", y k es el n\[UAcute]mero total de clases.\n\nA continuaci\[OAcute]n se \
 har\[AAcute] una prueba de bondad de ajuste para la distribuci\[OAcute]n \
 normal, tomando muestras generadas por una distribuci\[OAcute]n normal y una \
@@ -5494,8 +5447,7 @@ Cell[TextData[{
 \[OAcute]n de student la prueba ",
  Cell[BoxData[
   FormBox[
-   SuperscriptBox["\[Chi]", "2"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SuperscriptBox["\[Chi]", "2"], TraditionalForm]]],
  " da un resultado muy poco probable."
 }], "Text",
  CellChangeTimes->{{3.6630118798849306`*^9, 3.6630119176807795`*^9}}]
@@ -5506,7 +5458,7 @@ Cell[TextData[{
 WindowSize->{1536, 781},
 WindowMargins->{{-8, Automatic}, {Automatic, -8}},
 Magnification:>1.1 Inherited,
-FrontEndVersion->"10.2 for Microsoft Windows (64-bit) (July 7, 2015)",
+FrontEndVersion->"11.0 para Microsoft Windows (64-bit) (July 28, 2016)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -5529,159 +5481,158 @@ Cell[CellGroupData[{
 Cell[2291, 75, 99, 1, 74, "Subchapter"],
 Cell[2393, 78, 505, 8, 53, "Text"],
 Cell[CellGroupData[{
-Cell[2923, 90, 598, 15, 51, "Input"],
-Cell[3524, 107, 6170, 134, 258, "Output"]
-}, Open  ]]
-}, Open  ]]
-}, Open  ]],
-Cell[9733, 246, 118, 1, 79, "Chapter"],
-Cell[CellGroupData[{
-Cell[9876, 251, 119, 1, 67, "Chapter"],
-Cell[9998, 254, 361, 6, 32, "Text"],
-Cell[CellGroupData[{
-Cell[10384, 264, 2140, 58, 151, "Input"],
-Cell[12527, 324, 2397, 51, 477, "Output"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[14973, 381, 112, 1, 79, "Chapter"],
-Cell[15088, 384, 1132, 28, 121, "Text"],
-Cell[CellGroupData[{
-Cell[16245, 416, 99, 1, 74, "Subchapter"],
-Cell[16347, 419, 364, 6, 53, "ItemNumbered"],
-Cell[CellGroupData[{
-Cell[16736, 429, 1895, 49, 246, "Input"],
-Cell[CellGroupData[{
-Cell[18656, 482, 134, 2, 24, "Print"],
-Cell[18793, 486, 134, 2, 24, "Print"],
-Cell[18930, 490, 133, 2, 24, "Print"]
-}, Open  ]]
-}, Open  ]],
-Cell[19090, 496, 5396, 170, 371, "ItemNumbered"],
-Cell[CellGroupData[{
-Cell[24511, 670, 2019, 54, 282, "Input"],
-Cell[CellGroupData[{
-Cell[26555, 728, 141, 2, 24, "Print"],
-Cell[26699, 732, 136, 2, 24, "Print"]
-}, Open  ]]
-}, Open  ]],
-Cell[26862, 738, 250, 5, 32, "Text"],
-Cell[CellGroupData[{
-Cell[27137, 747, 3266, 77, 677, "Input"],
-Cell[30406, 826, 2930, 63, 405, "Output"]
+Cell[2923, 90, 598, 15, 52, "Input"],
+Cell[3524, 107, 6159, 134, 258, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[33397, 896, 203, 6, 79, "Chapter"],
-Cell[33603, 904, 1291, 35, 76, "Text"],
+Cell[9744, 248, 119, 1, 79, "Chapter"],
+Cell[9866, 251, 361, 6, 32, "Text"],
 Cell[CellGroupData[{
-Cell[34919, 943, 2557, 63, 493, "Input"],
-Cell[37479, 1008, 2724, 56, 389, "Output"]
+Cell[10252, 261, 2140, 58, 156, "Input"],
+Cell[12395, 321, 2397, 51, 477, "Output"]
+}, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[40240, 1069, 95, 1, 74, "Subchapter"],
-Cell[40338, 1072, 2331, 63, 184, "Text"],
+Cell[14841, 378, 112, 1, 79, "Chapter"],
+Cell[14956, 381, 1099, 27, 121, "Text"],
 Cell[CellGroupData[{
-Cell[42694, 1139, 4032, 95, 691, "Input"],
-Cell[46729, 1236, 2725, 57, 389, "Output"],
-Cell[49457, 1295, 96, 1, 24, "Print"],
-Cell[49556, 1298, 87, 1, 33, "Output"]
+Cell[16080, 412, 99, 1, 74, "Subchapter"],
+Cell[16182, 415, 364, 6, 53, "ItemNumbered"],
+Cell[CellGroupData[{
+Cell[16571, 425, 1895, 49, 247, "Input"],
+Cell[CellGroupData[{
+Cell[18491, 478, 134, 2, 23, "Print"],
+Cell[18628, 482, 134, 2, 23, "Print"],
+Cell[18765, 486, 133, 2, 23, "Print"]
+}, Open  ]]
 }, Open  ]],
-Cell[49658, 1302, 303, 5, 32, "Text"],
+Cell[18925, 492, 4901, 155, 371, "ItemNumbered"],
 Cell[CellGroupData[{
-Cell[49986, 1311, 3346, 77, 613, "Input"],
-Cell[53335, 1390, 3165, 66, 405, "Output"]
+Cell[23851, 651, 2019, 54, 287, "Input"],
+Cell[CellGroupData[{
+Cell[25895, 709, 141, 2, 23, "Print"],
+Cell[26039, 713, 136, 2, 23, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[26202, 719, 250, 5, 32, "Text"],
+Cell[CellGroupData[{
+Cell[26477, 728, 3266, 77, 701, "Input"],
+Cell[29746, 807, 2930, 63, 405, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[56561, 1463, 114, 1, 79, "Chapter"],
-Cell[56678, 1466, 1793, 50, 132, "Text"],
+Cell[32737, 877, 203, 6, 79, "Chapter"],
+Cell[32943, 885, 1291, 35, 76, "Text"],
 Cell[CellGroupData[{
-Cell[58496, 1520, 1903, 51, 368, "Input"],
-Cell[60402, 1573, 2472, 52, 393, "Output"]
-}, Open  ]],
-Cell[62889, 1628, 642, 19, 55, "Text"],
-Cell[CellGroupData[{
-Cell[63556, 1651, 3071, 73, 757, "Input"],
-Cell[66630, 1726, 2902, 59, 393, "Output"]
+Cell[34259, 924, 2557, 63, 510, "Input"],
+Cell[36819, 989, 2724, 56, 389, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[69569, 1790, 95, 1, 74, "Subchapter"],
-Cell[69667, 1793, 1529, 35, 185, "Text"],
+Cell[39580, 1050, 95, 1, 74, "Subchapter"],
+Cell[39678, 1053, 2331, 63, 184, "Text"],
 Cell[CellGroupData[{
-Cell[71221, 1832, 4261, 105, 711, "Input"],
-Cell[75485, 1939, 3202, 67, 409, "Output"],
-Cell[78690, 2008, 296, 4, 24, "Print"],
-Cell[78989, 2014, 282, 4, 33, "Output"]
+Cell[42034, 1120, 4032, 95, 725, "Input"],
+Cell[46069, 1217, 2725, 57, 389, "Output"],
+Cell[48797, 1276, 96, 1, 23, "Print"],
+Cell[48896, 1279, 87, 1, 33, "Output"]
+}, Open  ]],
+Cell[48998, 1283, 303, 5, 32, "Text"],
+Cell[CellGroupData[{
+Cell[49326, 1292, 3346, 77, 642, "Input"],
+Cell[52675, 1371, 3165, 66, 405, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[79332, 2025, 111, 1, 79, "Chapter"],
+Cell[55901, 1444, 114, 1, 79, "Chapter"],
+Cell[56018, 1447, 1793, 50, 132, "Text"],
 Cell[CellGroupData[{
-Cell[79468, 2030, 117, 1, 74, "Subchapter"],
-Cell[79588, 2033, 1542, 24, 154, "Text"],
-Cell[CellGroupData[{
-Cell[81155, 2061, 1951, 47, 193, "Input"],
-Cell[83109, 2110, 8340, 173, 256, "Output"]
+Cell[57836, 1501, 1903, 51, 375, "Input"],
+Cell[59742, 1554, 2472, 52, 393, "Output"]
 }, Open  ]],
-Cell[91464, 2286, 203, 4, 32, "Text"],
+Cell[62229, 1609, 609, 18, 55, "Text"],
 Cell[CellGroupData[{
-Cell[91692, 2294, 678, 17, 51, "Input"],
-Cell[92373, 2313, 6512, 140, 256, "Output"]
-}, Open  ]],
-Cell[98900, 2456, 907, 21, 103, "Text"],
-Cell[CellGroupData[{
-Cell[99832, 2481, 441, 11, 64, "Input"],
-Cell[100276, 2494, 141, 3, 33, "Output"]
-}, Open  ]],
-Cell[100432, 2500, 1254, 34, 270, "Input"],
-Cell[101689, 2536, 1110, 28, 73, "Text"],
-Cell[CellGroupData[{
-Cell[102824, 2568, 2532, 62, 533, "Input"],
-Cell[105359, 2632, 59563, 1048, 268, "Output"]
-}, Open  ]],
-Cell[164937, 3683, 444, 7, 53, "Text"],
-Cell[CellGroupData[{
-Cell[165406, 3694, 1694, 37, 191, "Input"],
-Cell[167103, 3733, 410, 5, 33, "Output"]
-}, Open  ]],
-Cell[167528, 3741, 391, 6, 53, "Text"],
-Cell[CellGroupData[{
-Cell[167944, 3751, 1290, 33, 191, "Input"],
-Cell[169237, 3786, 266, 3, 33, "Output"]
-}, Open  ]],
-Cell[169518, 3792, 243, 4, 32, "Text"]
+Cell[62863, 1631, 3071, 73, 777, "Input"],
+Cell[65937, 1706, 2902, 59, 393, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[169798, 3801, 122, 1, 74, "Subchapter"],
-Cell[169923, 3804, 2637, 72, 325, "Text"],
+Cell[68876, 1770, 95, 1, 74, "Subchapter"],
+Cell[68974, 1773, 1430, 32, 185, "Text"],
 Cell[CellGroupData[{
-Cell[172585, 3880, 3405, 86, 788, "Input"],
-Cell[175993, 3968, 70388, 1225, 275, "Output"]
-}, Open  ]],
-Cell[246396, 5196, 2683, 80, 297, "Text"],
-Cell[CellGroupData[{
-Cell[249104, 5280, 3360, 83, 448, "Input"],
-Cell[252467, 5365, 240, 3, 33, "Output"]
-}, Open  ]],
-Cell[252722, 5371, 276, 5, 32, "Text"],
-Cell[CellGroupData[{
-Cell[253023, 5380, 181, 3, 32, "Input"],
-Cell[253207, 5385, 91, 1, 33, "Output"]
+Cell[70429, 1809, 4242, 103, 745, "Input"],
+Cell[74674, 1914, 3202, 67, 409, "Output"],
+Cell[77879, 1983, 296, 4, 23, "Print"],
+Cell[78178, 1989, 282, 4, 33, "Output"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[253347, 5392, 248, 8, 74, "Subchapter"],
-Cell[253598, 5402, 2012, 58, 137, "Text"],
+Cell[78521, 2000, 111, 1, 79, "Chapter"],
 Cell[CellGroupData[{
-Cell[255635, 5464, 694, 17, 191, "Input"],
-Cell[256332, 5483, 111, 1, 33, "Output"],
-Cell[256446, 5486, 165, 2, 66, "Output"]
+Cell[78657, 2005, 117, 1, 74, "Subchapter"],
+Cell[78777, 2008, 1542, 24, 154, "Text"],
+Cell[CellGroupData[{
+Cell[80344, 2036, 1951, 47, 198, "Input"],
+Cell[82298, 2085, 8303, 171, 256, "Output"]
 }, Open  ]],
-Cell[256626, 5491, 363, 9, 34, "Text"]
+Cell[90616, 2259, 203, 4, 32, "Text"],
+Cell[CellGroupData[{
+Cell[90844, 2267, 678, 17, 52, "Input"],
+Cell[91525, 2286, 6512, 140, 256, "Output"]
+}, Open  ]],
+Cell[98052, 2429, 841, 19, 103, "Text"],
+Cell[CellGroupData[{
+Cell[98918, 2452, 441, 11, 65, "Input"],
+Cell[99362, 2465, 141, 3, 33, "Output"]
+}, Open  ]],
+Cell[99518, 2471, 1254, 34, 273, "Input"],
+Cell[100775, 2507, 1011, 25, 73, "Text"],
+Cell[CellGroupData[{
+Cell[101811, 2536, 2532, 62, 557, "Input"],
+Cell[104346, 2600, 59611, 1050, 268, "Output"]
+}, Open  ]],
+Cell[163972, 3653, 444, 7, 53, "Text"],
+Cell[CellGroupData[{
+Cell[164441, 3664, 1694, 37, 200, "Input"],
+Cell[166138, 3703, 410, 5, 33, "Output"]
+}, Open  ]],
+Cell[166563, 3711, 391, 6, 53, "Text"],
+Cell[CellGroupData[{
+Cell[166979, 3721, 1290, 33, 200, "Input"],
+Cell[168272, 3756, 266, 3, 33, "Output"]
+}, Open  ]],
+Cell[168553, 3762, 243, 4, 32, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[168833, 3771, 122, 1, 74, "Subchapter"],
+Cell[168958, 3774, 2340, 63, 325, "Text"],
+Cell[CellGroupData[{
+Cell[171323, 3841, 3432, 88, 816, "Input"],
+Cell[174758, 3931, 70436, 1227, 275, "Output"]
+}, Open  ]],
+Cell[245209, 5161, 2551, 76, 297, "Text"],
+Cell[CellGroupData[{
+Cell[247785, 5241, 3360, 83, 459, "Input"],
+Cell[251148, 5326, 240, 3, 33, "Output"]
+}, Open  ]],
+Cell[251403, 5332, 276, 5, 32, "Text"],
+Cell[CellGroupData[{
+Cell[251704, 5341, 181, 3, 33, "Input"],
+Cell[251888, 5346, 91, 1, 33, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[252028, 5353, 215, 7, 74, "Subchapter"],
+Cell[252246, 5362, 1781, 51, 137, "Text"],
+Cell[CellGroupData[{
+Cell[254052, 5417, 694, 17, 202, "Input"],
+Cell[254749, 5436, 111, 1, 33, "Output"],
+Cell[254863, 5439, 165, 2, 33, "Output"]
+}, Open  ]],
+Cell[255043, 5444, 330, 8, 34, "Text"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -5689,4 +5640,3 @@ Cell[256626, 5491, 363, 9, 34, "Text"]
 ]
 *)
 
-(* End of internal cache information *)
